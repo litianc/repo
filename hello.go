@@ -3,8 +3,9 @@ package main
 import (
     "fmt"
     "rsc.io/quote"
-:q)
+)
 
 func main() {
     fmt.Println(quote.Hello())
+    fmt.Println("version 0.2.0")
 }
